@@ -9,4 +9,12 @@ export default defineConfig({
       '@views': "/src/views",
     },
   },
+  server: {
+    watch: {
+      usePolling: true,
+    },
+    host: true,
+    strictPort: true,
+    port: 8000,
+  }
 })
