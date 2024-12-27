@@ -2,6 +2,12 @@
 
 This is a template for small React TS Vite projects. To be used in order to make kickstarting a project easier.
 
+# Requirements
+
+- Node 18+
+- Docker
+- pnpm
+
 # Commands: 
 To run dev version `pnpm run dev`
 To build a new image `docker build -t <image_name> .`
