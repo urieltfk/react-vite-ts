@@ -9,7 +9,10 @@
     "skipLibCheck": true,
     "baseUrl": "./",
     "paths": {
-      "@pages/*" : ["src/pages/*"]
+      "@pages/*" : ["src/pages/*"],
+      "@routes/*" : ["src/routes/*"],
+      "@components/*" : ["src/components/*"],
+      "@assets/*" : ["src/assets/*"]
     },
 
     /* Bundler mode */
