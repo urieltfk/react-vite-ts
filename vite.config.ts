@@ -9,7 +9,8 @@ export default defineConfig({
       '@routes': "/src/routes",
       '@pages': "/src/pages",
       '@components': "/src/components",
-      '@assets': "/src/assets"
+      '@assets': "/src/assets",
+      '@lib' : "/src/lib"
     },
   },
   server: {
